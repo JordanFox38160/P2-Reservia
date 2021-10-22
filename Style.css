@@ -183,6 +183,8 @@ a {
 }
 
 .recherche input {
+    color: black;
+    font-weight: bold;
     font-size: 18px;
     padding-right: 0.5rem;
     border: 2px solid #F2F2F2;
