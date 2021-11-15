@@ -13,12 +13,15 @@
 }
 
 
+.width100 {
+    width: 100%;
+}
+
 
 /*Justify-content au centre*/
 .jst-content {
     justify-content: center;
 }
-
 
 /*Aligner les items au centre*/
 .align-item-center {
@@ -152,12 +155,15 @@ a {
 }
 
 @media (max-width: 800px){
+    .titre-principaux {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .contenu h1 {
-        margin-left: 15px;
         font-size: 21px;
     }
     .contenu p {
-        margin-left: 15px;
         font-size: 15px;
     }
     #map-icone {
@@ -265,7 +271,8 @@ a {
 
 @media (max-width: 800px){
     .nav-filtre{
-    margin-left: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -317,15 +324,19 @@ a {
     padding-right: 10px;
     padding-top: 5px;
     font-size: 13px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 @media (max-width: 800px){
     .phrase-citation p {
-        font-size: 14px;
+        font-size: 16px;
     }
     #logoinformation {
-        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .citation {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -428,13 +439,6 @@ a {
     margin-top: -15px;
     margin-bottom: 9px;
 }
-
-@media (max-width: 800px){
-    .hebergement p {
-    padding-left: 0px;
-    }
-}
-
 
 .hebergement a {
     font-size: 20px;
@@ -586,7 +590,6 @@ a {
 
 .port img {
     object-fit: cover;
-    width: 100%;
     border-radius: 20px 20px 0px 0px;
     height: 490px;
 }
@@ -605,7 +608,6 @@ a {
 
 .pomegue img {
     object-fit: cover;
-    width: 100%;
     border-radius: 20px 20px 0px 0px;
     height: 245px;
 
@@ -613,16 +615,13 @@ a {
 
 .frioul {
     box-shadow: 1px 1px 5px rgb(189, 189, 189);
-    width: 100%;
     height: 200px;
 }
 
 .frioul img {
     object-fit: cover;
-    width: 100%;
     border-radius: 20px 20px 0px 0px;
     height: 145px;
-
 }
 
 .dame {
@@ -634,7 +633,6 @@ a {
 
 .dame img {
     object-fit: cover;
-    width: 100%;
     border-radius: 20px 20px 0px 0px;
     height: 145px;
 }
@@ -648,7 +646,6 @@ a {
 
 .parc img {
     object-fit: cover;
-    width: 100%;
     border-radius: 20px 20px 0px 0px;
     height: 245px;
 }
@@ -656,7 +653,6 @@ a {
 /*FOOTER*/
 
 footer {
-    width: 100%;
     background-color: #F2F2F2;
     height: auto;
     margin-top: 50px;
@@ -775,7 +771,6 @@ footer li {
     }
 
     .cards-activites {
-        width: 100%;
         gap: 30px;
     }
 
@@ -918,7 +913,7 @@ footer li {
     }
 
     .container-collum aside {
-        height: 210px;
+        height: 215px;
     }
 
     .cards-activites aside {
